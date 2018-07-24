@@ -6,6 +6,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: auto;
+    background-color: white;
 }
 
 ul.nav li a, ul.nav li a:visited {
