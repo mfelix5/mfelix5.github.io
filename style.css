@@ -1,9 +1,13 @@
 body {
 
     font-family: 'Quicksand', sans-serif;
-    background-image: url("bg.jpg");
+    background-image: url("background-image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-size: 600px 200px;
+    background-position: center; 
+
+
     background-attachment: fixed;
     height: auto;
     background-color: white;
@@ -33,7 +37,7 @@ ul.nav li a:hover, ul.nav li a:active {
     height: 60px;
     line-height: 60px;
     margin-top: 30px;
-    /* background-color: #2e2e2e */
+    background-color: white;
 }
 
 .social-icons {
