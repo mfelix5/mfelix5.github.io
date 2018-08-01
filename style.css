@@ -10,8 +10,9 @@ body {
 
     background-attachment: fixed;
     height: auto;
-    background-color: white;
+    
 }
+
 
 ul.nav li a, ul.nav li a:visited {
     color: gray !important;
