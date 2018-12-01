@@ -3,23 +3,24 @@ body {
     background-image: url("background-image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-size: 900px 300px; */
     background-position: center; 
     background-attachment: fixed;
     height: auto;
 }
 
 ul.nav li a, ul.nav li a:visited {
-    color: gray !important;
+    color: black !important;
+    cursor: pointer;
 }
 
 ul.nav li a:hover, ul.nav li a:active {
-    color: black !important;
+    color: gray !important;
+    cursor: pointer;
 }
 
 .card {
     margin: 15px !important;
-    border-radius: 15px !important;
+    border-radius: 5px !important;
 }
 
 #last-project {
@@ -38,4 +39,5 @@ ul.nav li a:hover, ul.nav li a:active {
 
 .social-icons {
     height: 30px;
+    margin: 0 10px 10px 10px;
 }
