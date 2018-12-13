@@ -1,0 +1,74 @@
+.dark-background {
+    background-color: #1F2435 !important;
+}
+
+.primary-overlay {
+    background: rgba(50, 60, 90, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+.brand-logo i {
+    font-size: 35px !important;
+}
+.main-header {
+    background: url(../img/earth.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    min-height: 600px;
+    color: white;
+    position: relative;
+}
+
+main-header .showcase {
+    padding-top: 110px;
+}
+
+.scroll-icon {
+    position: absolute;
+    bottom: 5%;
+    left: 47%;
+    opacity: 0.3;
+}
+
+.box {
+    padding: 20px 15px !important;
+}
+
+.section-boxes .row {
+    margin-bottom: 10 !important;
+}
+
+.section-contact {
+    position: relative;
+}
+
+.section-contact .card-panel {
+    position: relative;
+    z-index: 1;
+}
+
+.page-footer p {
+    margin: 0;
+    padding: 0;
+}
+
+#googlemap {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+@media(max-width: 600px) {
+    .main-header {
+        height: 60vh;
+    }
+}

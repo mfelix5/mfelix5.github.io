@@ -1,0 +1,46 @@
+.brand-logo i {
+    font-size: 45px !important;
+    margin: 0px !important;
+}
+
+.nav-text {
+    color: #65293C !important;
+}
+
+.main-header {
+    background: url(./images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+main-header .showcase {
+    padding-top: 110px;
+}
+
+.carousel-slider {
+    padding: 0;
+    margin: 0;
+    height: 500px;
+}
+
+.section-contact {
+    position: relative;
+}
+
+.section-contact .card-panel {
+    position: relative;
+    z-index: 1;
+}
+
+#googlemap {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+footer a {
+    color: white;
+}

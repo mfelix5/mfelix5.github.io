@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Google icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Ontology</title>
+</head>
+
+<body id="home" class="scrollSpy">
+
+    <header class="main-header">
+        <div class="navbar-fixed">
+            <nav class="green lighten-2">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="#home" class="brand-logo black-text left">ntology<i class="material-icons yellow-text text-lighten-3">album</i></a>
+                        <ul class="right hide-on-small-and-down">
+                            <li>
+                                <a href="#philosophy" class="black-text">Philosophy</a>
+                            </li>
+                            <li>
+                                <a href="#services" class="black-text">Services</a>
+                            </li>
+                            <li>
+                                <a href="#contact" class="black-text">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+        <div class="showcase container">
+            <div class="row">
+                <div class="col s12 main-text">
+                    <div class="container">
+                        <br>
+                        <br>
+                        <br>
+                        <h2>Graphic Design & Retouching Solutions</h2>
+                        <p class="flow-text">for independent e-commerce retailers.</p>
+                        <br>
+                        <a href="#philosophy" class="btn-large yellow lighten-3 hoverable nav-text">Learn More</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- Philosophy section -->
+    <section id="philosophy" class="scrollSpy section section-about grey lighten-4 center">
+        <div class="container">
+            <h3>Philosophy</h3>
+            <hr>
+            <p class="flow-text">
+                Material impactful beautiful sales lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor
+                incididunt ut
+                labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea
+                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                anim id est
+                laborum.
+            </p>
+    </section>
+
+    <!-- Services section -->
+    <section id="services" class="scrollSpy section section-about lighten-4 center">
+        <div class="container">
+            <h3>Services</h3>
+            <hr>
+            <p class="flow-text">
+                Tautological ontological lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut
+                labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea
+                commodo consequat.
+            </p>
+            <div class="carousel carousel-slider">
+                <a class="carousel-item" href="#one!"><img src="./images/flowers.png"></a>
+            </div>
+    </section>
+
+    <!-- Contact section -->
+    <section>
+        <div id="contact" class="section section-contact center scrollSpy">
+            <div id="googlemap"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6 offset-m6">
+                        <div class="card-panel z-depth-5">
+                            <h3>Contact</h3>
+                            <div class="input-field">
+                                <input type="text" id="name">
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="email" id="email">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="text" id="phone">
+                                <label for="phone">Phone</label>
+                            </div>
+                            <div class="input-field">
+                                <textarea class="materialize-textarea" placeholder="Message" id="message"></textarea>
+                            </div>
+                            <input type="submit" value="Send Message" class="btn-large yellow lighten-3 hoverable black-text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="page-footer blue-grey lighten-2">
+        <div class="container">
+            <div class="row">
+                <div class="col l9 m9 s12">
+                    <h5>Ontology, Inc.</h5>
+                    <ul>
+                        <li>848 Brickell Avenue</li>
+                        <li>Miami, FL 33131</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container center">
+                © 2019. Photos by <a href="https://unsplash.com/@evieshaffer" target="_blank">Evie Shaffer</a>.
+            </div>
+        </div>
+    </footer>
+
+    <p></p>
+
+    <!-- jQuery, Materialize -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Google Maps API -->
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCGvloOWyLFdGusHv37GX5ZKwERtfQAh0I"></script>
+
+    <!-- Styles for Google Map -->
+    <script src="mapStyles.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // enable materialize functionality
+
+            // scroll spy
+            $('.scrollSpy').scrollSpy({ scrollOffset: 50 });
+
+            // image carousel
+            $('.carousel.carousel-slider').carousel({
+                dist: 0,
+                numVisible: 1,
+                fullWidth: true,
+            });
+
+            // google maps
+
+            const position = [25.764973, -80.191264];
+            const centerPosition = [25.754973, -80.11];
+
+            function showGoogleMaps() {
+                const latLng = new google.maps.LatLng(position[0], position[1]);
+                const centerLatLng = new google.maps.LatLng(centerPosition[0], centerPosition[1]);
+
+                const mapOptions = {
+                    zoom: 12,
+                    streetViewControl: false,
+                    scaleControl: false,
+                    mapTypeControl: false,
+                    zoomControl: true,
+                    fullscreenControl: false,
+                    mapTypeId: 'roadmap',
+                    center: centerLatLng,
+                    styles: mapStyles()
+                }
+
+                //create map
+                map = new google.maps.Map(document.getElementById('googlemap'), mapOptions);
+
+                //show marker
+                marker = new google.maps.Marker({
+                    position: latLng,
+                    map: map,
+                    draggable: false,
+                    animation: google.maps.Animation.DROP
+                });
+            }
+
+            // Maps event
+            google.maps.event.addDomListener(window, 'load', showGoogleMaps);
+
+        });
+    </script>
+</body>
+
+</html>
