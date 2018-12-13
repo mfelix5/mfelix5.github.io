@@ -1,0 +1,41 @@
+.brand-logo i {
+    font-size: 35px !important;
+    pointer-events: none;
+}
+
+.my-purple {
+    color: #745761;
+}
+
+.my-purple-avatar {
+    background-color: #745761;
+}
+
+.nav-background {
+    background-color: #030209;
+}
+
+.main-header {
+    background: url(./images/space.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.fab, .far {
+    font-size: 50px;
+    margin: 20px 10px 20px 10px;
+} 
+
+.contact-link {
+     color: black;
+}
+
+.footer-background {
+    background-color: #745761;
+}
+
+footer a {
+    color: white;
+}
+

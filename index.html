@@ -1,149 +1,210 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-        crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-        crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <!--Google icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+
     <title>Michael Felix</title>
 </head>
 
-<body>
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-            <p class="nav-link">Michael Felix</p>
-        </li>
-        <li class="nav-item">
-            <p class="nav-link">|</p>
-        </li>
-        <li class="nav-item">
-            <a id="projects-button" class="nav-link" data-toggle="collapse" data-target="#about">About</a>
-        </li>
-        <li class="nav-item">
-            <p class="nav-link">|</p>
-        </li>
-        <li class="nav-item">
-            <a id="about-button" class="nav-link" data-toggle="collapse" data-target="#projects">Projects</a>
-        </li>
-    </ul>
+<body id="home" class="scrollSpy">
 
-    <div id="about" class="row collapse justify-content-center">
-        <div class="col-sm-8">
-            <div class="card shadow-lg border-secondary">
-                <div class="card-body text-center">
-                    <h4 class="card-title text-center">About</h4>
-                    <p class="card-text text-justify">Building on several years of experience
-                        designing, implementing and supporting enterprise software systems, I recently took the MITx
-                        <em>Intro to Computer Science and Programming in Python</em> course and then Burlington Code
-                        Academy's three-month full-stack web development bootcamp. At this point, I'm having fun
-                        primarily with JavaScript, Node, React, Vue and Material Design CSS frameworks.</p>
+    <header class="main-header">
+        <div class="navbar-fixed">
+            <nav class="nav-background">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="#home" class="brand-logo left"><i class="material-icons my-purple">android</i></a>
+                        <ul class="right">
+                            <li>
+                                <a href="#about" class="white-text">About</a>
+                            </li>
+                            <li>
+                                <a href="#projects" class="white-text">Projects</a>
+                            </li>
+                            <li>
+                                <a href="#contact" class="white-text">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="projects" class="row collapse justify-content-center">
-
-        <div class="col-sm-8">
-            <div class="card shadow-lg border-secondary">
-                <div class="card-body text-center">
-                    <h4 class="card-title text-center">Argus HR</h4>
-                    <p class="card-text text-justify">This is a simple <a href="https://dry-badlands-23263.herokuapp.com"
-                            target="_blank">HR management app</a> with email authentication I made using Node, Vue, Chart.js,
-                        Materialize CSS and FireStore. You can login as "abc@abc.com" with password "123456" if you
-                        don't feel like signing up. The app is hosted on Heroku and the code is <a href="https://github.com/mfelix5/employees"
-                            target="_blank">here</a> on GitHub.</p>
-                </div>
-            </div>
+            </nav>
         </div>
 
-        <div class="col-sm-8">
-            <div class="card shadow-lg border-secondary">
-                <div class="card-body text-center">
-                    <h4 class="card-title text-center">Static Marketing Sites</h4>
-                    <p class="card-text text-justify">This is a <a href="/compass/index.html" target="_blank">marketing site</a> I made for a fictional technology consultancy and <a href="/ontology/index.html" target="_blank">here is a site</a> I made for a fictional graphic design company. For both, I used Materialize CSS and the Google Maps Javascript API.</p>
+
+        <div class="showcase container">
+            <div class="row">
+                <div class="col s12 main-text">
+                    <div class="container center">
+                        <br>
+                        <br>
+                        <br>
+                        <h2 class="center white-text">Michael Felix</h2>
+                        <p class="flow-text white-text center">Full-stack web developer having fun with JavaScript,
+                            Node and React.</p>
+                        <br>
+                        <a href="#about" class="btn-large white black-text hoverable">Learn More</a>
+                    </div>
                 </div>
+
             </div>
         </div>
+    </header>
+
+    <!-- About section -->
+
+    <section id="about" class="scrollSpy section section-about grey lighten-4">
+        <div class="container">
+            <h3 class="center">About</h3>
+            <ul class="collection">
+                <li class="collection-item avatar">
+                  <i class="material-icons circle grey">work_outline</i>
+                  <span class="title">Career</span>
+                  <p>I spent about six years working for small enterprise software companies and the last 10 working for internationally-focused non-profits. I'm currently pivoting back to technology with more of a focus on programming.
+                  </p>
+                </li>
+                <li class="collection-item avatar">
+                  <i class="material-icons circle grey darken-2">code</i>
+                  <span class="title">Technology</span>
+                  <p>Over the past year, I've taken the MITx Intro to Computer Science and Programming in Python course, Burlington Code Academy's three-month full-stack web development bootcamp and many Udemy courses. Right now, I'm srongest with JavaScript and the Node/Express/React/Mongo stack. In upcoming projects, I look forward to experimenting with GraphQL, React Native and AWS.
+                  </p>
+                </li>
+                <li class="collection-item avatar">
+                  <i class="material-icons circle black">school</i>
+                  <span class="title">Education</span>
+                  <p>I have a BA in Economics and Philosophy from Boston College and an MA in Political Economy from Fordham University. In October 2018, I participated in the National Science Foundation Innovation-Corps <a href="https://www.nsf.gov/news/special_reports/i-corps/" target="_blank">program</a> on entrepreneurship.
+                  </p>
+                </li>
+              </ul>
+    </section>
+
+    <!-- Projects section -->
+
+    <section id="projects" class="scrollSpy section section-about lighten-4 center">
+        <div class="container">
+            <h3>Projects</h3>
+
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="https://dry-badlands-23263.herokuapp.com/#/" target="_blank"><img src="images/argus.jpg"></a>
+                        </div>
+                        <div class="card-content">
+                            <p>This is a serverless HR management app with email authentication I made using Node, Express, Vue, Chart.js, Materialize CSS and Google FireStore. You can login as "abc@abc.com" with password "123456" if you don't feel like signing up. The app is hosted on Heroku and the code is <a href="https://github.com/mfelix5/employees" target="_blank">here on GitHub.</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m6">
+                        <div class="card">
+                            <div class="card-image">
+                                <a href="https://mfelix5.github.io/ontology/index.html" target="_blank"><img src="images/ontology.jpg"></a>
+                            </div>
+                            <div class="card-content">
+                                <p>This is a static marketing site I made for a fictional graphic design and retouching company using Materialize CSS and the Google Maps JavaScript API.</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="row">
+                    <div class="col s12 m6">
+                        <div class="card">
+                            <div class="card-image">
+                                <a href="https://mfelix5.github.io/compass/index.html" target="_blank"><img src="images/compass.jpg"></a>
+                            </div>
+                            <div class="card-content">
+                                <p>This is a static marketing site I made for a fictional technology consulting firm using Materialize CSS and the Google Maps JavaScript API.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m6">
+                            <div class="card">
+                                <div class="card-image">
+                                    <a href="https://shiny-happy-meetups.mybluemix.net/" target="_blank"><img src="images/meetups.jpg"></a>
+                                </div>
+                                <div class="card-content">
+                                    <p>This is a responsive meetup-style app I made using Node, Loopback, React, Materialize CSS and MongoDB. The app is hosted on IBM Cloud and the database on mLab. The code is <a href="https://github.com/mfelix5/meetups" target="_blank">here on GitHub.</a></p>
+                                </div>
+                            </div>
+                        </div>
+    
+
+                </div>
+
+                <div class="row">
+                        <div class="col s12 m6">
+                            <div class="card">
+                                <div class="card-image">
+                                    <a href="https://reverent-lamarr-2d2977.netlify.com/" target="_blank"><img src="images/hacker-news.jpg"></a>
+                                </div>
+                                <div class="card-content">
+                                    <p>This is a Hacker News client I made using React. It fetches data from an Algolia Search API. The app is hosted on Netlify and the code is <a href="https://github.com/mfelix5/hacker-news" target="_blank">here on GitHub.</a> Guidance from <em>The Road to Learn React</em> by Robin Wieruch.</p>
+                                </div>
+                            </div>
+                        </div>
         
-        <div class="col-sm-8">
-            <div class="card shadow-lg border-secondary">
-                <div class="card-body text-center">
-                    <h4 class="card-title text-center">Shiny Happy Meetups</h4>
-                    <p class="card-text text-justify">This is a responsive <a href="https://shiny-happy-meetups.mybluemix.net/"
-                            target="_blank">meetup-style app</a> I made using Node, Loopback, React, Materialize CSS
-                        and MongoDB. The app is hosted on IBM Cloud and the database on mLab. The code is <a href="https://github.com/mfelix5/meetups"
-                            target="_blank">here</a> on GitHub.</p>
-                </div>
-            </div>
+                        <div class="col s12 m6">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <a href="http://www.nimble-health.com/schedulerView.html" target="_blank"><img src="images/nimble.jpg"></a>
+                                    </div>
+                                    <div class="card-content">
+                                        <p>Katie Yawney, Jake Durell and I created the software for <a href="http://www.nimble-health.com/" target="_blank">Nimble Health</a>, a transportation service for health care providers that ensures patients have the transportation they need to reach their appointments. Using Node, Express, Google Maps, Bootstrap and MongoDB we developed separate interfaces for the two main user types - administrators and drivers.</p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+
         </div>
 
-        <div class="col-sm-8">
-            <div class="card shadow-lg border-secondary">
-                <div class="card-body text-center">
-                    <h4 class="card-title text-center">Hacker News</h4>
-                    <p class="card-text text-justify">This is a <a href="https://reverent-lamarr-2d2977.netlify.com/"
-                            target="_blank">Hacker News client</a> I made using React. It fetches data from an <a href="https://hn.algolia.com/api"
-                            target="_blank">Algolia Search API.</a> The app is hosted on Netlify and the code is <a
-                            href="https://github.com/mfelix5/hacker-news" target="_blank">here</a> on GitHub. Guidance
-                        from <em><a href="https://www.robinwieruch.de/the-road-to-learn-react/" target="_blank">The
-                                Road to Learn React</a></em> by Robin Wieruch.</p>
-                </div>
+    </section>
+
+    <!-- Contact section -->
+
+    <section>
+        <div id="contact" class="section section-contact center grey lighten-4 scrollSpy">
+            <div class="container">
+            <h3>Contact</h3>
+            <a href="mailto:mikefelix@gmail.com"><i class="far fa-envelope contact-link"></i></a>            
+            <a href="https://github.com/mfelix5" target="_blank"><i class="fab fa-github contact-link"></i></a>
+            <a href="https://www.linkedin.com/in/mfelix5/" target="_blank"><i class="fab fa-linkedin contact-link"></i></a>
             </div>
         </div>
+    </section>
 
-        <!-- <div class="col-sm-8">
-            <div class="card shadow-lg border-secondary">
-                <div class="card-body text-center">
-                    <h4 class="card-title text-center">To-do app</h4>
-                    <p class="card-text text-justify">This is a simple <a href="https://gentle-mesa-48647.herokuapp.com/"
-                            target="_blank">to-do app</a> I made using jQuery, Node, Express and Mongo. The app is
-                        hosted on Heroku and the database on mLab. The code is <a href="https://github.com/mfelix5/to-do-app"
-                            target="_blank">here</a> on GitHub. This is an exercise that is part of Rithm School's <a
-                            href="https://www.udemy.com/the-advanced-web-developer-bootcamp/learn/v4/content" target="_blank">Advanced
-                            Web Developer Bootcamp.</a></p>
-                </div>
-            </div>
-        </div> -->
+    <!-- Footer -->
 
-        <div class="col-sm-8">
-            <div id="last-project" class="card shadow-lg border-secondary">
-                <div class="card-body text-center">
-                    <h4 class="card-title text-center">Nimble Health</h4>
-                    <p class="card-text text-justify"><a href="https://github.com/koyo72-4" target="_blank">Katie
-                            Yawney</a>, <a href="https://github.com/jakedurell" target="_blank">Jake Durell</a> and I
-                        created the software for <a href="http://www.nimble-health.com" target="_blank">Nimble Health</a>,
-                        a transportation service for health care providers that ensures patients have
-                        the transportation they need to reach their appointments. Using Node, Express, Google Maps,
-                        Bootstrap and MongoDB we developed separate interfaces for the two main user types - <a href="http://www.nimble-health.com/schedulerView.html"
-                            target="_blank">administrators</a> and <a href="http://www.nimble-health.com/driverView.html"
-                            target="_blank">drivers.</a> The driver interface is optimized for mobile devices.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <footer id="footer" class="footer">
-        <div class="col-sm-12 text-center">
-            <a href="https://github.com/mfelix5" target="_blank">
-                <img class="social-icons" src="Github.svg">
-            </a>
-            <a href="https://www.linkedin.com/in/mfelix5/" target="_blank">
-                <img class="social-icons" src="Linkedin.svg">
-            </a>
-        </div>
+    <footer class="page-footer footer-background">
+        <div class="container center">Space photo by <a href="https://unsplash.com/@nathananderson" target="_blank">Nathan
+                Anderson</a></div>
+        <br>
     </footer>
 
+
+    <!-- jQuery, Materialize -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // enable materialize scroll spy
+            $('.scrollSpy').scrollSpy({ scrollOffset: 50 });
+        });
+    </script>
 </body>
 
 </html>
