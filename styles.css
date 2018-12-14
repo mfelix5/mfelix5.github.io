@@ -22,17 +22,25 @@
     height: 100vh;
 }
 
+.title {
+    font-weight: bold;
+}
+
 .fab, .far {
-    font-size: 50px;
+    font-size: 40px;
     margin: 20px 10px 20px 10px;
 } 
 
 .contact-link {
-     color: black;
+     color: white;
+}
+
+.section-contact {
+    background-color: #745761;
 }
 
 .footer-background {
-    background-color: #745761;
+    background-color: black;
 }
 
 footer a {
