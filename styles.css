@@ -7,7 +7,7 @@
     color: #745761;
 }
 
-.my-purple-avatar {
+.my-purple-background {
     background-color: #745761;
 }
 
@@ -22,8 +22,16 @@
     height: 100vh;
 }
 
+.section-about {
+    padding-bottom: 50px;
+}
+
 .title {
     font-weight: bold;
+}
+
+.section-contact {
+    padding-bottom: 50px;
 }
 
 .fab, .far {
@@ -32,15 +40,7 @@
 } 
 
 .contact-link {
-     color: white;
-}
-
-.section-contact {
-    background-color: #745761;
-}
-
-.footer-background {
-    background-color: black;
+     color: black;
 }
 
 footer a {
