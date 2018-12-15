@@ -31,16 +31,19 @@
 }
 
 .section-contact {
-    padding-bottom: 50px;
+    background: url(./images/house.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 85vh;
 }
 
-.fab, .far {
-    font-size: 40px;
-    margin: 20px 10px 20px 10px;
+.fab, .fas {
+    font-size: 50px;
+    margin: 50px 20px;
 } 
 
 .contact-link {
-     color: black;
+     color: rgb(41, 41, 41);
 }
 
 footer a {
