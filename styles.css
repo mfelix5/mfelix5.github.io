@@ -1,10 +1,9 @@
 .brand-logo i {
-    font-size: 35px !important;
+    font-size: 40px !important;
+    line-height: 40px !important;
+    padding: 0;
+    margin: 12px 0;
     pointer-events: none;
-}
-
-.my-purple {
-    color: #745761;
 }
 
 .my-purple-background {
