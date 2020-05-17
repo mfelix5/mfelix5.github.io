@@ -3,8 +3,8 @@ body {
 }
 
 .footer-background {
-    background-color: rgb(252, 229, 98);
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 .nav-background {
@@ -28,7 +28,7 @@ body {
 }
 
 .section-contact {
-    background: url(./images/oswaldo-martinez-mountains.jpg);
+    background: url(./images/martin-adams-mountains.jpg);
     background-size: cover;
     background-position: bottom;
     height: 85vh;
