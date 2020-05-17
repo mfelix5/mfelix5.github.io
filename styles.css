@@ -1,5 +1,10 @@
-.my-purple-background {
-    background-color: #745761;
+body {
+    background-color: black;
+}
+
+.footer-background {
+    background-color: rgb(252, 229, 98);
+    color: black;
 }
 
 .nav-background {
@@ -7,7 +12,7 @@
 }
 
 .main-header {
-    background: url(./images/space.jpg);
+    background: url(./images/simon-matzinger-mountains.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -15,6 +20,7 @@
 
 .section-about {
     padding-bottom: 50px;
+    background-color: white;
 }
 
 .title {
@@ -22,7 +28,7 @@
 }
 
 .section-contact {
-    background: url(./images/house.jpg);
+    background: url(./images/oswaldo-martinez-mountains.jpg);
     background-size: cover;
     background-position: bottom;
     height: 85vh;
@@ -31,21 +37,16 @@
 .section-contact .fab, .section-contact .fas {
     font-size: 50px;
     margin: 50px 20px;
-} 
+}
 
 .contact-link {
      color: rgb(41, 41, 41);
 }
 
-footer a {
-    color: white;
-}
-
 .brand-logo i {
-    font-size: 40px !important;
+    font-size: 30px !important;
     line-height: 40px !important;
     padding: 0 !important;
     margin: 12px 0 !important;
     pointer-events: none;
 }
-
